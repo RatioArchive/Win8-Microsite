@@ -17,8 +17,9 @@ body	{
 }
 
 #viewport	{
-	width: 6000px; 
-	height: 100%; 
+	width: 7000px; 
+	height: 768px; 
+	overflow: hidden; 
 }
 
 /** NAVIGATION **/
@@ -71,30 +72,40 @@ body	{
 	display: block; 
 	float: left; 
 	background-color: #CCC; 
+	height: auto; 
+	width: 1366px;
 }
 
 #hub	{
 	display: block; 
 	float: left; 
 	background-color: white; 
+	height: auto; 
+	width: 1366px;
 }
 
 #splash	{
 	display: block; 
 	float: left; 
 	background-color: #666; 
+	height: auto; 
+	width: 1366px;
 }
 
 #livetiles	{
 	display: block; 
 	float: left; 
 	background-color: #CCC; 
+	height: auto; 
+	width: 1366px;
 }
 
 #terminology	{
 	display: block; 
 	float: left; 
 	background-color: white; 
+	height: auto; 
+	width: 1366px;
 }
 
 
