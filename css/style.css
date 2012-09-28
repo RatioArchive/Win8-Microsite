@@ -7,9 +7,6 @@ h1, h2, h3, h4, h5, a, p, ul, li	{
 	font-family: Helvetica, Arial, Sans-Serif; 
 }
 
-
-/** MY STYLES **/ 
-
 /** GENERAL **/
 
 body	{
@@ -18,7 +15,7 @@ body	{
 
 #viewport	{
 	width: 7000px; 
-	height: 768px; 
+	height: 100%; 
 	overflow: hidden; 
 }
 
@@ -72,8 +69,8 @@ body	{
 	display: block; 
 	float: left; 
 	background-color: #CCC; 
-	height: auto; 
-	width: 1366px;
+	height: 100%; 
+	width: 1024px;
 }
 
 #hub	{
@@ -81,7 +78,7 @@ body	{
 	float: left; 
 	background-color: white; 
 	height: auto; 
-	width: 1366px;
+	width: 1024px;
 }
 
 #splash	{
@@ -89,7 +86,7 @@ body	{
 	float: left; 
 	background-color: #666; 
 	height: auto; 
-	width: 1366px;
+	width: 1024px;
 }
 
 #livetiles	{
@@ -97,7 +94,7 @@ body	{
 	float: left; 
 	background-color: #CCC; 
 	height: auto; 
-	width: 1366px;
+	width: 1024px;
 }
 
 #terminology	{
@@ -105,7 +102,7 @@ body	{
 	float: left; 
 	background-color: white; 
 	height: auto; 
-	width: 1366px;
+	width: 1024px;
 }
 
 
@@ -113,18 +110,21 @@ body	{
 
 #description	{
 	display: block; 
+	float:left; 
+	margin-top: 100px; 
 	margin-left: 250px; 
-	height: 600px; 
-	width: 800px; 
+	height: 400px; 
+	width: 600px; 
+	background-color: #333; 
 }
 
 #description h3	{
-	margin-top: 135px; 
+	color: white; 
 }
 
 #description a	{
 	text-decoration: none; 
-	color: black; 
+	color: white; 
 	font-size: 40px; 
 	font-weight: 100;
 }
