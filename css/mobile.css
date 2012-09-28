@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+/** FONTS & TYPOGRAPHY **/
+
+h1, h2, h3, h4, h5, a, p, ul, li	{
+	font-family: Helvetica, Arial, Sans-Serif; 
+}
+
+
+/** MY STYLES **/ 
+
+body	{
+	background-color: white; 
+}
+

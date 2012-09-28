@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Windows 8 Handbook</title>
+
+<!-- CSS -->
+<link rel="stylesheet" media="all" href="css/reset.css">
+<link rel="stylesheet" media="all" href="css/style.css">
+
+<!-- JS -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script>
+$(function() {
+	
+	var windowWidth = window.outerWidth - 200;
+	var windowHeight = window.outerHeight;
+	
+	$('.tile').width(windowWidth).height(windowHeight);
+	
+	
+    $('ul.nav a').bind('click',function(event){
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1000);
+        event.preventDefault();
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+ 
+<div id="viewport">
+
+	<div id="nav">
+        <div id="logo">
+            <a href="#intro"><img src="img/win8handbooklogo.png" width="160" height="180" alt="windows 8 handbook logo"></a>
+            <h2>Win8 Handbook</h2>
+        </div>
+        <ul class="nav">
+        	<li><a href="intro">00 Introduction</a></li>
+        	<li><a href="#hub">01 Hub Page</a></li>
+            <li><a href="#splash">02 Splash Screen</a></li>
+            <li><a href="#livetiles">03 Live Tiles</a></li>
+            <li class="borderbottom"><a href="#terminology">04 Terminology</a></li>
+        </ul>
+    </div>
+    
+    <div id="intro" class="tile">
+    	<div id="description">
+        	<h3><a href="#intro">Introduction</a></h3>
+        </div>
+    </div>
+    
+    <div id="hub" class="tile">
+    	<div id="description">
+        	<h3><a href="#hub">Hub Page</a></h3>
+        </div>
+    </div>
+    
+    <div id="splash" class="tile">
+    	<div id="description">
+        	<h3><a href="#splash">Splash Screen</a></h3>
+        </div>
+    </div>
+    
+    <div id="livetiles" class="tile">
+    	<div id="description">
+        	<h3><a href="#livetiles">Live Tiles</a></h3>
+        </div>
+    </div>
+    
+    <div id="terminology" class="tile">
+    	<div id="description">
+        	<h3><a href="#terminology">Terminology</a></h3>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
