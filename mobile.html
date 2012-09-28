@@ -2,7 +2,9 @@
 <html>
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
 <title>Windows 8 Handbook</title>
 
 <!-- CSS -->
@@ -14,62 +16,63 @@
 
 <script>
 $(function() {
-		
-	$('.tile').width(windowWidth).height(windowHeight);
-	
     $('ul.nav a').bind('click',function(event){
         var $anchor = $(this);
-		
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-		
+        }, 1000);
         event.preventDefault();
     });
-});
-</script>
+});</script>
 
 </head>
 
 <body>
 
-<header>
-	<div id="logo">
-    </div>
-    
-     <div id="nav">
-     	<ul>
-        	<li><a href="#terms">Terminology</a></li>
-            <li><a href="#splash">Splash Screen</a></li>
-            <li><a href="#hub">Hub Page</a></li>
-            <li><a href="#intro">Introduction</a></li>
+ 
+<div id="viewport">
+
+	<div id="nav">
+        <div id="logo">
+			<img src="img/win8handbooklogo.png" width="160" height="180">
+<h2>Win8 Handbook</h2>
+        </div>
+        <ul class="nav">
+        	<li><a href="#intro">00 Introduction</a></li>
+        	<li><a href="#hub">01 Hub Page</a></li>
+            <li><a href="#splash">02 Splash Screen</a></li>
+            <li><a href="#livetiles">03 Live Tiles</a></li>
+            <li class="borderbottom"><a href="#terminology">04 Terminology</a></li>
         </ul>
-     </div>
-</header>
-
-<div id="container">
-
-	<div class="window tile">
-    	<div class="intro">
-        	<a href="#intro"><h2>Introduction</h2></a>
+    </div>
+    
+    <div id="intro">
+    	<div id="description">
+        	<h3><a href="#intro">Introduction</a></h3>
         </div>
     </div>
     
-	<div class="window2 tile">
-    	<div class="intro">
-        	<a href="#hub"><h2>Hub Page</h2></a>
-        </div>
-    </div>
-
-	<div class="window3 tile">
-    	<div class="intro">
-        	<a href="#splash"><h2>Splash Page</h2></a>
+    <div id="hub">
+    	<div id="description">
+        	<h3><a href="#hub">Hub Page</a></h3>
         </div>
     </div>
     
-	<div class="window4 tile">
-    	<div class="intro">
-        	<a href="#terms"><h2>Terminology</h2></a>
+    <div id="splash">
+    	<div id="description">
+        	<h3><a href="#splash">Splash Screen</a></h3>
+        </div>
+    </div>
+    
+    <div id="livetiles">
+    	<div id="description">
+        	<h3><a href="#livetiles">Live Tiles</a></h3>
+        </div>
+    </div>
+    
+    <div id="terminology">
+    	<div id="description">
+        	<h3><a href="#terminology">Terminology</a></h3>
         </div>
     </div>
 
