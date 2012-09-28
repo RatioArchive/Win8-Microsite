@@ -7,16 +7,16 @@ h1, h2, h3, h4, h5, a, p, ul, li	{
 	font-family: Helvetica, Arial, Sans-Serif; 
 }
 
-/** GENERAL **/
+
+/** MY STYLES **/ 
 
 body	{
 	background-color: black; 
 }
 
 #viewport	{
-	width: 7000px; 
+	width: 6000px; 
 	height: 100%; 
-	overflow: hidden; 
 }
 
 /** NAVIGATION **/
@@ -57,8 +57,9 @@ body	{
 	font-size: 15px; 
 }
 
-.borderbottom	{
+#terminology	{
 	border-bottom: 1px solid black; 
+	width: 100%; 
 }
 
 
@@ -68,63 +69,61 @@ body	{
 #intro	{
 	display: block; 
 	float: left; 
+	width: 1200px; 
+	height: 750px;
 	background-color: #CCC; 
-	height: 100%; 
-	width: 1024px;
+}
+
+#description	{
+	display: block; 
+	margin-left: 250px; 
+	height: 600px; 
+	width: 800px; 
+}
+
+#description h3	{
+	margin-top: 135px; 
+}
+
+#description a	{
+	text-decoration: none; 
+	color: black; 
+	font-size: 40px; 
+	font-weight: 100;
 }
 
 #hub	{
 	display: block; 
 	float: left; 
+	width: 1200px; 
+	height: 750px;
 	background-color: white; 
-	height: auto; 
-	width: 1024px;
 }
 
 #splash	{
 	display: block; 
 	float: left; 
+	width: 1200px; 
+	height: 750px;
 	background-color: #666; 
-	height: auto; 
-	width: 1024px;
 }
 
 #livetiles	{
 	display: block; 
 	float: left; 
+	width: 1200px; 
+	height: 750px;
 	background-color: #CCC; 
-	height: auto; 
-	width: 1024px;
 }
 
 #terminology	{
 	display: block; 
 	float: left; 
+	width: 1200px; 
+	height: 750px;
 	background-color: white; 
-	height: auto; 
-	width: 1024px;
 }
 
-
-/** CONTAINERS WITHIN SECTIONS **/
-
-#description	{
-	display: block; 
-	float:left; 
-	margin-top: 100px; 
-	margin-left: 250px; 
-	height: 400px; 
-	width: 600px; 
-	background-color: #333; 
-}
-
-#description h3	{
-	color: white; 
-}
-
-#description a	{
-	text-decoration: none; 
-	color: white; 
-	font-size: 40px; 
-	font-weight: 100;
+.borderbottom	{
+	border-bottom: 1px solid black; 
 }

@@ -14,10 +14,7 @@
 
 <script>
 $(function() {
-	
-	var windowWidth = window.outerWidth - 200;
-	var windowHeight = window.outerHeight;
-	
+		
 	$('.tile').width(windowWidth).height(windowHeight);
 	
     $('ul.nav a').bind('click',function(event){
@@ -35,21 +32,48 @@ $(function() {
 </head>
 
 <body>
-<header>
 
+<header>
 	<div id="logo">
     </div>
     
-     <div class="nav">
+     <div id="nav">
      	<ul>
-        	<li>Intro</li>
-            <li>Hub Page</li>
-            <li>Splash Screen</li>
-            <li></li>
+        	<li><a href="#terms">Terminology</a></li>
+            <li><a href="#splash">Splash Screen</a></li>
+            <li><a href="#hub">Hub Page</a></li>
+            <li><a href="#intro">Introduction</a></li>
         </ul>
      </div>
-     
 </header>
+
+<div id="container">
+
+	<div class="window tile">
+    	<div class="intro">
+        	<a href="#intro"><h2>Introduction</h2></a>
+        </div>
+    </div>
+    
+	<div class="window2 tile">
+    	<div class="intro">
+        	<a href="#hub"><h2>Hub Page</h2></a>
+        </div>
+    </div>
+
+	<div class="window3 tile">
+    	<div class="intro">
+        	<a href="#splash"><h2>Splash Page</h2></a>
+        </div>
+    </div>
+    
+	<div class="window4 tile">
+    	<div class="intro">
+        	<a href="#terms"><h2>Terminology</h2></a>
+        </div>
+    </div>
+
+</div>
 
 </body>
 

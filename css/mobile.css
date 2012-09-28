@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/** GENERAL **/
+
+body	{
+	background-color: white; 
+}
 
 /** FONTS & TYPOGRAPHY **/
 
@@ -8,9 +13,53 @@ h1, h2, h3, h4, h5, a, p, ul, li	{
 }
 
 
-/** MY STYLES **/ 
+/** HEADER **/ 
 
-body	{
-	background-color: white; 
+header	{
+	height: 70px; 
+	width: 100%; 
+	background-color: #CCC; 
 }
 
+#logo	{
+	float: left; 
+	height: 70px; 
+	width: 70px; 
+	background-color: #333; 
+}
+
+#nav	{
+	display: block; 
+}	
+
+#nav ul li a	{
+	background-color: #09F; 
+	display: block; 
+	height: 70px; 
+	width: 200px; 
+	float: right; 
+	text-align: center; 
+	line-height: 70px; 
+	text-decoration: none; 
+	color: white; 
+}
+
+/** CONTAINER **/ 
+
+.window	{
+	width: 100%; 
+	height: 700px; 
+	background-color: #0CF; 
+}
+
+.window2	{
+	width: 100%; 
+	height: 700px; 
+	background-color: #C90; 
+}
+
+.window3	{
+	width: 100%; 
+	height: 700px; 
+	background-color: #3F0; 
+}
