@@ -74,6 +74,40 @@ body	{
 	background-color: #CCC; 
 }
 
+#tile1	{
+	float: left; 
+	margin-top: 10px; 
+	height: 105px; 
+	width: 105px; 
+	background-color: #333; 
+}
+
+#tile2	{
+	float: left; 
+	clear: both; 
+	margin-top: 10px;
+	height: 105px; 
+	width: 105px; 
+	background-color: #333; 
+}
+
+#tile3	{
+	float: left; 
+	clear: both; 
+	margin-top: 10px;
+	height: 105px; 
+	width: 105px; 
+	background-color: #333; 
+}
+
+#tile4	{
+	margin-top: 10px; 
+	margin-left: 115px; 
+	height: 335px; 
+	width: 400px; 
+	background-color: #999; 
+}
+
 #description	{
 	display: block; 
 	margin-left: 250px; 
@@ -82,7 +116,7 @@ body	{
 }
 
 #description h3	{
-	margin-top: 135px; 
+	margin-top: 129px; 
 }
 
 #description a	{
@@ -126,4 +160,41 @@ body	{
 
 .borderbottom	{
 	border-bottom: 1px solid black; 
+}
+
+/** HOVER STATES **/
+
+span	{
+	position: relative; 
+}
+
+span div	{
+	position: absolute; 
+	background-color: white; 
+	color: black; 
+	cursor: pointer; 
+	padding: 0px; 
+	border: 0px; 
+	width: 0px; 
+	opacity: 0; 
+	display: block; 
+}
+
+span:hover div	{
+	padding: 0px 0px 0px 2px; 
+	border: 1px solid #000; 
+	width: 350px; 
+	height: 300px; 
+	opacity: 1; 
+	display: block; 
+	
+     transition: width, border opacity .0s linear .5s;
+    -webkit-transition: width, border opacity .0s linear .5s;
+    -moz-transition: width, border opacity .0s linear .5s;
+    -ms-transition: width, border opacity .0s linear .5s;
+    
+    transition: opacity .5s linear .5s;
+    -webkit-transition: opacity .5s linear .5s;
+    -moz-transition: opacity .5s linear .5s;
+    -ms-transition: opacity .5s linear .5s;
 }
