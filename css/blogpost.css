@@ -3,8 +3,33 @@
 
 /** GLOBAL STYLES **/ 
 
+@font-face {
+    font-family: 'segoe-light';
+    src: url('fonts/segoeuil.eot');
+    src: url('fonts/segoeuil.eot?#iefix') format('embedded-opentype'),
+         url('fonts/segoeuil.woff') format('woff'),
+         url('fonts/segoeuil.ttf') format('truetype'),
+         url('fonts/segoeuil.svg#segoe-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'segoe-bold';
+    src: url('fonts/seguisb.eot');
+    src: url('fonts/seguisb.eot?#iefix') format('embedded-opentype'),
+         url('fonts/seguisb.woff') format('woff'),
+         url('fonts/seguisb.ttf') format('truetype'),
+         url('fonts/seguisb.svg#segoe-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 h1, h2, h3, h4, h5, a, p, ul, li	{
-	font-family: Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 }
 
 body	{
@@ -28,7 +53,7 @@ header	{
 
 #nav	{
 	margin-left: 24%; 
-	font-family: helvetica, arial, sans-serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 }
 
 #nav a	{
@@ -37,7 +62,7 @@ header	{
 	color: white; 
 	width: 10%; 
 	height: 5%; 
-	font-size: .8em; 
+	font-size: .7em; 
 	float: left; 
 	margin-top: 1.5%; 
 	text-align: center; 
@@ -69,7 +94,7 @@ header	{
 
 #welcome h1	{
 	color: #858585; 
-	font-family: Helvetica, arial, sans-serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	font-size: 1.0em; 
 	font-weight: 100; 
 	line-height: 1.3em; 
@@ -84,17 +109,18 @@ header	{
 
 #welcome h2	{
 	color: white; 
-	font-size: .9em; 
+	font-size: 1em; 
 	margin-bottom: 7%; 
-	font-family: Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif;
+	letter-spacing: 1px;  
 }
 
 #welcome p	{
 	font-size: .8em; 
 	line-height: 1.5em; 
 	font-weight: 100; 
-	font-family: Helvetica, arial, sans-serif; 
-	font-weight: 100; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-weight: 100; 
 }
 
 .textwhite	{
@@ -142,8 +168,8 @@ header	{
 	margin-left: 8%; 
 	color: white; 
 	line-height: 4em; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .9em; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+font-size: .9em; 
 	font-weight: 100; 
 }
 
@@ -161,7 +187,7 @@ header	{
 }
 
 .section h3	{
-	font-family: Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 	color: #858585; 
 	font-size: .9em; 
 	margin-top: 7%; 
@@ -195,8 +221,8 @@ header	{
 .do, .dont	{
 	color: #858585; 
 	font-size: .8em; 
-	font-family: helvetica, arial, sans-serif; 
-	font-weight: 100; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-weight: 100; 
 	line-height: 1.1em;
 	margin-bottom: 15%;  
 	width: 80%; 
@@ -240,8 +266,8 @@ footer	{
 }
 
 footer a	{
-	font-family: helvetica, arial, sans-serif; 
-	color: white; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
 	display: block; 
@@ -265,7 +291,7 @@ footer a	{
 	color: white; 
 	width: 15%; 
 	height: 5%; 
-	font-size: 1em; 
+	font-size: .8em; 
 	float: left; 
 	margin-top: 2%; 
 	text-align: center; 
@@ -302,7 +328,7 @@ header	{
 
 #welcome h1	{
 	color: #858585; 
-	font-family: Helvetica, arial, sans-serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	font-size: 1.0em; 
 	font-weight: 100; 
 	line-height: 1.3em; 
@@ -322,7 +348,7 @@ header	{
 	color: white; 
 	font-size: .9em; 
 	margin-bottom: 5%; 
-	font-family: Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif;
 	text-align: center; 
 	margin-left: 2%; 
 }
@@ -331,8 +357,8 @@ header	{
 	font-size: .8em; 
 	line-height: 1.6em; 
 	font-weight: 100; 
-	font-family: Helvetica, arial, sans-serif; 
-	font-weight: 100; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-weight: 100; 
 	margin-left: 8%; 
 	margin-right: 8%; 
 	text-align: center; 
@@ -390,7 +416,7 @@ header	{
 	margin-left: 0%; 
 	color: white; 
 	line-height: 4em; 
-	font-family: helvetica, arial, sans-serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 	font-size: .9em; 
 	font-weight: 100; 
 	text-align: center; 
@@ -402,7 +428,7 @@ header	{
 }
 
 .section h3	{
-	font-family: Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 	color: #858585; 
 	font-size: .9em; 
 	margin-top: 7%; 
@@ -435,8 +461,8 @@ header	{
 .do, .dont	{
 	color: #858585; 
 	font-size: .8em; 
-	font-family: helvetica, arial, sans-serif; 
-	font-weight: 100; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-weight: 100; 
 	line-height: 1.1em;
 	width: 70%; 
 }
@@ -479,8 +505,8 @@ footer	{
 }
 
 footer a	{
-	font-family: helvetica, arial, sans-serif; 
-	color: white; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
 	display: block; 
@@ -555,8 +581,8 @@ header	{
 
 #welcome h1	{
 	color: #858585; 
-	font-family: Helvetica, arial, sans-serif; 
-	font-size: 1em; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-size: 1em; 
 	font-weight: 100; 
 	line-height: 1.3em; 
 	margin-bottom: 1em; 
@@ -575,7 +601,7 @@ header	{
 	color: white; 
 	font-size: .9em; 
 	margin-bottom: 5%; 
-	font-family: Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif;
 	text-align: center; 
 	margin-left: 2%; 
 }
@@ -584,8 +610,8 @@ header	{
 	font-size: .8em; 
 	line-height: 1.6em; 
 	font-weight: 100; 
-	font-family: Helvetica, arial, sans-serif; 
-	font-weight: 100; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-weight: 100; 
 	margin-left: 5%; 
 	margin-right: 5%; 
 	text-align: center; 
@@ -648,8 +674,8 @@ header	{
 	margin-left: 0%; 
 	color: white; 
 	line-height: 50px; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .9em; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+font-size: .9em; 
 	font-weight: 100; 
 	text-align: center; 
 }
@@ -661,7 +687,7 @@ header	{
 }
 
 .section h3	{
-	font-family: Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 	color: #858585; 
 	font-size: .9em; 
 	margin-top: 20%; 
@@ -695,8 +721,8 @@ header	{
 .do, .dont	{
 	color: #858585; 
 	font-size: .8em; 
-	font-family: helvetica, arial, sans-serif; 
-	font-weight: 100; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-weight: 100; 
 	line-height: 1.1em;
 	margin-left: 13%; 
 	width: 75%; 
@@ -741,8 +767,8 @@ footer	{
 }
 
 footer a	{
-	font-family: helvetica, arial, sans-serif; 
-	color: white; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
 	display: block; 

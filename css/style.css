@@ -3,8 +3,36 @@
 
 /** GLOBAL STYLES **/ 
 
+
+@font-face {
+    font-family: 'segoe-light';
+    src: url('fonts/segoeuil.eot');
+    src: url('fonts/segoeuil.eot?#iefix') format('embedded-opentype'),
+         url('fonts/segoeuil.woff') format('woff'),
+         url('fonts/segoeuil.ttf') format('truetype'),
+         url('fonts/segoeuil.svg#segoe-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'segoe-bold';
+    src: url('fonts/seguisb.eot');
+    src: url('fonts/seguisb.eot?#iefix') format('embedded-opentype'),
+         url('fonts/seguisb.woff') format('woff'),
+         url('fonts/seguisb.ttf') format('truetype'),
+         url('fonts/seguisb.svg#segoe-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 h1, h2, h3, h4, h5, a, p, ul, li	{
-	font-family: Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 }
 
 body	{
@@ -28,7 +56,7 @@ header	{
 
 #nav	{
 	margin-left: 24%; 
-	font-family: helvetica, arial, sans-serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 }
 
 #nav a	{
@@ -37,7 +65,7 @@ header	{
 	color: white; 
 	width: 10%; 
 	height: 5%; 
-	font-size: .8em; 
+	font-size: .7em; 
 	float: left; 
 	margin-top: 1.5%; 
 	text-align: center; 
@@ -55,7 +83,7 @@ header	{
 #welcome	{
 	clear: both; 
 	float: left; 
-	width: 31%; 
+	width: 29%; 
 	height: 390px; 
 	margin-left: 8%; 
 	margin-top: 8%; 
@@ -68,19 +96,23 @@ header	{
 
 #welcome h1	{
 	color: white; 
-	font-family: Helvetica, arial, sans-serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	font-size: 1em; 
-	font-weight: 100; 
+	font-weight: lighter; 
 	line-height: 1.3em; 
 	margin-bottom: 1.3em; 
 }
 
 #welcome p	{
 	font-size: .8em; 
-	line-height: 1.4em; 
+	line-height: 1.5em; 
 	font-weight: 100; 
 	color: white; 
-	font-family: Helvetica, arial, sans-serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+}
+
+.bolder	{
+	font-weight: bold; 
 }
 
 #welcome a	{
@@ -118,9 +150,10 @@ header	{
 	margin-bottom: 5%; 
 	height: 2.2em; 
 	width: 1.6em; 
-	border-bottom: solid 2px black; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .9em; 
+	border-bottom: solid 2px #858585; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: 1em;
+	color: #858585;  
 }	
 
 .thumbnail	{
@@ -139,17 +172,18 @@ header	{
 	margin-top: 4%; 
 	margin-bottom: 2%; 
 	color: #666666; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .8em; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: .75em; 
 	letter-spacing: .06em; 
 }
 
 .thumbnail p {
 	font-size: .8em; 
 	color: #666666; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .8em; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: .75em; 
 	width: 80%; 
+	line-height: 1.3em; 
 }
 
 /** FOOTER **/
@@ -179,8 +213,8 @@ footer	{
 }
 
 footer a	{
-	font-family: helvetica, arial, sans-serif; 
-	color: white; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
 	display: block; 
@@ -204,7 +238,7 @@ footer a	{
 	color: white; 
 	width: 15%; 
 	height: 5%; 
-	font-size: 1em; 
+	font-size: .8em; 
 	float: left; 
 	margin-top: 2%; 
 	text-align: center; 
@@ -236,8 +270,8 @@ header	{
 
 #welcome h1	{
 	color: white; 
-	font-family: Helvetica, arial, sans-serif; 
-	font-size: 1.1em; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-size: 1.1em; 
 	font-weight: 100; 
 	line-height: 1.3em; 
 	margin-bottom: 1.1em; 
@@ -251,8 +285,8 @@ header	{
 	line-height: 1.5em; 
 	font-weight: 100; 
 	color: white; 
-	font-family: Helvetica, arial, sans-serif; 
-	text-align: center; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+text-align: center; 
 }
 
 #welcome a	{
@@ -293,8 +327,8 @@ header	{
 	height: 2.2em; 
 	width: 4em; 
 	border-bottom: solid 2px #666666; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .9em; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: 1.1em; 
 	text-align: center; 
 	margin-left: auto; 
 	margin-right: auto; 
@@ -320,16 +354,16 @@ header	{
 	margin-top: 4%; 
 	margin-bottom: 2%; 
 	color: #666666; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .8em; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+font-size: .8em; 
 	letter-spacing: .06em; 
 }
 
 .thumbnail p {
 	font-size: .8em; 
 	color: #666666; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .8em; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+font-size: .8em; 
 	width: 80%; 
 	text-align: center; 
 	margin-left: auto; 
@@ -363,8 +397,8 @@ footer	{
 }
 
 footer a	{
-	font-family: helvetica, arial, sans-serif; 
-	color: white; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
 	display: block; 
@@ -433,7 +467,7 @@ header	{
 
 #welcome h1	{
 	color: white; 
-	font-family: Helvetica, arial, sans-serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	font-size: 1.1em; 
 	font-weight: 100; 
 	line-height: 1.3em; 
@@ -448,7 +482,7 @@ header	{
 	line-height: 1.5em; 
 	font-weight: 100; 
 	color: white; 
-	font-family: Helvetica, arial, sans-serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	text-align: center; 
 }
 
@@ -494,8 +528,8 @@ header	{
 	height: 2.2em; 
 	width: 4em; 
 	border-bottom: solid 2px #666666; 
-	font-family: helvetica, arial, sans-serif; 
-	font-size: .9em; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: 1.1em; 
 	text-align: center; 
 	margin-left: auto; 
 	margin-right: auto; 
@@ -521,7 +555,7 @@ header	{
 	margin-top: 4%; 
 	margin-bottom: 2%; 
 	color: #666666; 
-	font-family: helvetica, arial, sans-serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 	font-size: .8em; 
 	letter-spacing: .06em; 
 }
@@ -529,7 +563,7 @@ header	{
 .thumbnail p {
 	font-size: .8em; 
 	color: #666666; 
-	font-family: helvetica, arial, sans-serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	font-size: .8em; 
 	width: 80%; 
 	text-align: center; 
@@ -564,7 +598,7 @@ footer	{
 }
 
 footer a	{
-	font-family: helvetica, arial, sans-serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
