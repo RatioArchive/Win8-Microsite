@@ -142,7 +142,7 @@ font-weight: 100;
 }
 
 #hero	{
-	margin-top: 23%; 
+	margin-top: 20%; 
 	margin-left: 8%; 
 	width: 54%; 
 	height: 390px; 
@@ -228,6 +228,8 @@ font-weight: 100;
 	width: 80%; 
 }
 
+/** IMAGE CONTENT **/
+	
 .tablet	{
 	float: left; 
 	background-image: url(../img/tablet.png); 
@@ -237,6 +239,7 @@ font-weight: 100;
 	width: 85%; 
 	height: 260px; 
 }
+
 
 /** FOOTER **/
 
@@ -267,7 +270,7 @@ footer	{
 
 footer a	{
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-color: white; 
+	color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
 	display: block; 
@@ -277,6 +280,7 @@ color: white;
 	margin-top: 5%; 
 	text-decoration: none; 
 }
+
 
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -481,6 +485,7 @@ font-weight: 100;
 /** FOOTER **/
 
 footer	{
+	clear: both; 
 	height: 250px; 
 	width: 100%; 
 	background-color: #26C9FF; 
@@ -506,7 +511,7 @@ footer	{
 
 footer a	{
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-color: white; 
+	color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
 	display: block; 
@@ -743,6 +748,7 @@ font-weight: 100;
 /** FOOTER **/
 
 footer	{
+	clear: both; 
 	height: 250px; 
 	width: 100%; 
 	background-color: #26C9FF; 
@@ -768,7 +774,7 @@ footer	{
 
 footer a	{
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-color: white; 
+	color: white; 
 	font-size: .8em; 
 	font-weight: 100; 
 	display: block; 
