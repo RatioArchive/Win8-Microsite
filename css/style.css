@@ -483,7 +483,7 @@ header	{
 .logo	{
 	margin-top: 5%; 
 	margin-bottom: 8%; 
-	margin-left: 44%; 
+	margin-left: 42%; 
 }
 
 
@@ -626,6 +626,7 @@ footer	{
 	float: left; 
 	text-align: center; 
 	margin-bottom: 2%; 
+	margin-left: 5%; 
 }
 
 #ratiologo img	{
@@ -650,7 +651,7 @@ footer a	{
 	margin-top: 15px; 
 	text-decoration: none; 
 	text-align: center; 
-	margin-left: 5%; 
+	margin-left: 1%; 
 }
 
 footer ul li a:hover	{

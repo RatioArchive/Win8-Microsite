@@ -807,6 +807,7 @@ footer	{
 	float: left; 
 	text-align: center; 
 	margin-bottom: 2%; 
+	margin-left: 5%; 
 }
 
 #ratiologo img	{
@@ -831,7 +832,7 @@ footer ul li a	{
 	margin-top: 15px; 
 	text-decoration: none; 
 	text-align: center; 
-	margin-left: 5%; 
+	margin-left: 1%; 
 }
 
 footer ul li a:hover	{
