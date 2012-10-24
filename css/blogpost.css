@@ -129,7 +129,7 @@ header	{
 	line-height: 1.5em; 
 	font-weight: 100; 
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-font-weight: 100; 
+	font-weight: 100; 
 }
 
 .textwhite	{
@@ -257,8 +257,77 @@ font-size: .9em;
 }
 
 .bareimage	{
-	margin-left: 9%; 
+	margin-left: 2%; 
 	margin-bottom: 4%; 
+	width: 83%; 
+	height: auto; 
+}
+
+.livetiles	{
+	margin-left: 4%; 
+	margin-bottom: 4%; 
+}
+
+
+/** CONTENTS SECTION (TO OTHER BLOG POSTS) **/
+
+.contents	{
+	padding-left: 15%; 
+	clear: both; 
+	width: 100%; 
+	height: 10em;
+	background-color: #1F1D1E; 
+}
+
+.contents h3	{
+	padding-top: 4%; 
+	margin-bottom: 5%; 
+	height: 2.2em; 
+	width: 1.6em; 
+	border-bottom: solid 2px #858585; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: 1em;
+	color: #858585;  
+	text-align: left; 
+}
+
+.thumbnail	{
+	width: 32%; 
+	height: auto; 
+	display: inline-block;
+	margin-bottom: 5%; 
+}
+
+.thumbnail img	{
+	width: 70%; 
+	height: auto; 
+}
+
+.thumbnail h2	{
+	margin-top: 4%; 
+	margin-bottom: 2%; 
+	color: #666666; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: .75em; 
+	letter-spacing: .06em; 
+}
+
+.thumbnail p {
+	font-size: .8em; 
+	color: #666666; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: .75em; 
+	width: 80%; 
+	line-height: 1.3em; 
+}
+
+.thumbnail a {
+	color: #666666; 
+	text-decoration: none; 
+}
+
+.thumbnail a:hover	{
+	text-decoration: underline; 
 }
 
 
@@ -466,11 +535,19 @@ font-weight: 100;
 	margin-right: 0%; 
 }
 
+
 .bareimage	{
 	width: 80%; 
 	height: auto; 
 	margin-left: 9%; 
 	margin-bottom: 4%; 
+}
+
+.livetiles	{
+	margin-left: 10%; 
+	margin-bottom: 4%; 
+	width: 80%; 
+	height: auto; 
 }
 
 .dont	{
@@ -497,6 +574,7 @@ font-weight: 100;
 	font-weight: 100; 
 	line-height: 1.2em;
 	width: 70%; 
+	margin-left: 9%; 
 }
 
 .tablet	{
@@ -741,6 +819,13 @@ font-size: .9em;
 	margin-bottom: 4%; 
 }
 
+.livetiles	{
+	width: 80%; 
+	height: auto; 
+	margin-left: 20%; 
+	margin-bottom: 4%; 
+}
+
 .dont	{
 	background-image: url(../img/dont_icon.png); 
 	float: left; 
@@ -764,7 +849,7 @@ font-size: .9em;
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	font-weight: 100; 
 	line-height: 1.2em;
-	margin-left: 13%; 
+	margin-left: 19%; 
 	width: 75%; 
 }
 
