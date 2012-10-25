@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, a, p, ul, li	{
 }
 
 body	{
-	background-color: white; 
+	background-color: #FFFFFF; 
 }
 
 
@@ -96,7 +96,7 @@ header	{
 	width: 29%; 
 	height: 390px; 
 	margin-left: 8%; 
-	margin-top: 8%; 
+	margin-top: 5%; 
 }
 
 #welcome img	{
@@ -110,6 +110,7 @@ header	{
 	font-weight: lighter; 
 	line-height: 1.3em; 
 	margin-bottom: 1.3em; 
+	width: 14em; 
 }
 
 #welcome p	{
@@ -118,6 +119,7 @@ header	{
 	font-weight: 100; 
 	color: white; 
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	margin-bottom: 10%; 
 }
 
 .bolder	{
@@ -133,7 +135,7 @@ header	{
 }
 
 #hero	{
-	margin-top: 8%; 
+	margin-top: 5%; 
 	margin-left: 3%; 
 	width: 54%; 
 	height: 390px; 
@@ -141,7 +143,8 @@ header	{
 }
 
 #hero img	{
-	padding-left: 5%; 
+	padding-left: 10%; 
+	height: auto; 
 }
 
 
@@ -222,7 +225,7 @@ footer	{
 }
 
 #ratiologo img	{
-	width: 100%; 
+	width: 60px; 
 	height: auto; 
 }
 
@@ -239,7 +242,7 @@ footer a	{
 	float: left; 
 	width: 50%; 
 	height: 3%; 
-	margin-top: 38px; 
+	line-height: 80px;
 	text-decoration: none; 
 }
 
@@ -272,7 +275,7 @@ header	{
 .logo	{
 	margin-top: 5%; 
 	margin-bottom: 5%; 
-	margin-left: 46%; 
+	text-align: center; 
 }
 
 
@@ -289,11 +292,14 @@ header	{
 #welcome h1	{
 	color: white; 
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-font-size: 1.1em; 
+	font-size: 1.1em; 
 	font-weight: 100; 
 	line-height: 1.3em; 
 	margin-bottom: 1.1em; 
 	text-align: center; 
+	width: inherit; 
+	margin-left: auto; 
+	margin-right: auto; 
 }
 
 #welcome p	{
@@ -305,6 +311,7 @@ font-size: 1.1em;
 	color: white; 
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	text-align: center; 
+	margin-bottom: 5%; 
 }
 
 #welcome a	{
@@ -317,7 +324,7 @@ font-size: 1.1em;
 
 
 #hero	{
-	margin-top: 8%; 
+	margin-top: 16%; 
 	margin-left: 5%;
 	margin-right: 5%;  
 	width: 90%; 
@@ -327,8 +334,9 @@ font-size: 1.1em;
 }
 
 #hero img	{
-	width: 85%; 
+	width: 80%; 
 	height: auto; 
+	padding-left: 0%; 
 }
 
 
@@ -336,7 +344,7 @@ font-size: 1.1em;
 
 #content	{
 	clear: both; 
-	height: 1100px; 
+	height: auto; 
 }
 
 #content h3	{
@@ -408,7 +416,7 @@ footer	{
 
 #ratiologo	{
 	height: 115px; 
-	width: 90%; 
+	width: 86%; 
 	margin-top: 30px; 
 	float: left; 
 	text-align: center; 
@@ -434,10 +442,10 @@ footer a	{
 	float: left; 
 	width: 95%; 
 	height: 3%; 
-	margin-top: 10px; 
 	text-decoration: none; 
 	text-align: center; 
 	margin-left: 5%; 
+	line-height: 25px; 
 }
 
 footer ul li a:hover	{
@@ -502,11 +510,14 @@ header	{
 #welcome h1	{
 	color: white; 
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-	font-size: 1.1em; 
+	font-size: 1em; 
 	font-weight: 100; 
 	line-height: 1.3em; 
 	margin-bottom: 1.1em; 
 	text-align: center; 
+	width: 14em; 
+	margin-left: auto; 
+	margin-right: auto; 
 }
 
 #welcome p	{
@@ -533,7 +544,7 @@ header	{
 }
 
 #hero	{
-	margin-top: 8%; 
+	margin-top: 35%; 
 	margin-left: 5%;
 	margin-right: 5%;  
 	width: 90%; 
@@ -545,6 +556,7 @@ header	{
 #hero img	{
 	width: 85%; 
 	height: auto; 
+	padding-left: 0%; 
 }
 
 /** CONTENT **/
@@ -622,17 +634,17 @@ footer	{
 }
 
 #ratiologo	{
-	height: 110px; 
-	width: 90%; 
-	margin-top: 5%; 
+	height: 115px; 
+	width: 70%; 
+	margin-top: 30px; 
 	float: left; 
 	text-align: center; 
 	margin-bottom: 2%; 
-	margin-left: 5%; 
+	margin-left: 34%;
 }
 
 #ratiologo img	{
-	margin-top: 10px; 
+	margin-top: 12px; 
 	width: 110px; 
 	height: auto; 
 }
@@ -641,7 +653,7 @@ footer	{
 	margin-left: 0; 
 }
 
-footer a	{
+footer ul li a	{
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	color: white; 
 	font-size: .8em; 
@@ -653,7 +665,8 @@ footer a	{
 	margin-top: 15px; 
 	text-decoration: none; 
 	text-align: center; 
-	margin-left: 1%; 
+	margin-left: 2%; 
+	line-height: 12px; 
 }
 
 footer ul li a:hover	{

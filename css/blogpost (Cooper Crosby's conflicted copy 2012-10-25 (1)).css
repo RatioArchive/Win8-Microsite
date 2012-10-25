@@ -199,15 +199,11 @@ font-size: .9em;
 	margin-bottom: 3%; 
 }
 
-.description h4	{
-	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
-}
-
 .column	{
 	float: left; 
 	height: auto; 
 	width: 20%; 
-	margin-left: 8%; 
+	margin-left: 7%; 
 	margin-bottom: 10%; 
 }
 
@@ -237,8 +233,7 @@ font-size: .9em;
 .column2	{
 	float: left; 
 	height: auto; 
-	width: 40%; 
-	padding-right: 10%; 
+	width: 25%; 
 	margin-bottom: 6%; 
 }
 
@@ -327,7 +322,7 @@ font-size: .9em;
 .ifnot  {
 	clear:both;
 	padding-left:2%;
-	margin-top:20%;
+	margin-bottom:2%;
 }
 
 /** IMAGE CONTENT **/
@@ -619,76 +614,6 @@ header	{
 	font-weight: 100; 
 	text-align: center; 
 }
-
-/** BLOG POST CONTENT (1-column) **/ 
-
-.description	{
-	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-	color: #858585; 
-	margin-left: 4%; 
-	margin-right: 17%; 
-	font-size: 1em; 
-	line-height: 1.5em; 
-	margin-bottom: 3%; 
-}
-
-.description h4	{
-	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
-}
-
-.column	{
-	float: left; 
-	height: auto; 
-	width: 20%; 
-	margin-left: 8%; 
-	margin-bottom: 10%; 
-}
-
-.column p	{
-	margin-top: 3%; 
-	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-	font-size: .9em; 
-	line-height: 1.3em; 
-	color: #858585; 
-}
-
-.column h4	{
-	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
-	font-size: 1em; 
-	color: #858585; 
-}
-
-.group	{
-	float: left; 
-	margin-left: 4%; 
-	height: 300px; 
-	background-color: blue; 
-	margin-bottom: 5%; 
-	width: 80%; 
-}
-
-.column2	{
-	float: left; 
-	height: auto; 
-	width: 40%; 
-	padding-right: 10%; 
-	margin-bottom: 6%; 
-}
-
-.column2 p	{
-	margin-top: 3%; 
-	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-	font-size: .9em; 
-	line-height: 1.3em; 
-	color: #858585; 
-}
-
-.column2 h4	{
-	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
-	font-size: 1em; 
-	color: #858585; 
-}
-
 
 /** BLOG POST CONTENT **/ 
 
@@ -1066,13 +991,6 @@ font-size: .9em;
 	margin-right: 0%; 
 }
 
-.left2	{
-	width: 85%; 
-	height: auto; 
-	float: left; 
-	margin-right: 0%; 
-}
-
 .bareimage	{
 	width: 80%; 
 	height: auto; 
@@ -1251,6 +1169,11 @@ footer ul li a	{
 
 footer ul li a:hover	{
 	text-decoration: underline; 
+}
+
+footer > .container > p{
+	color:blue;
+	border:1px solid red;
 }
 
 }
