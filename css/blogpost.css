@@ -420,7 +420,7 @@ header	{
 	height: 3em; 
 	width: 78%; 
 	padding-bottom: 8%; 
-	padding-right: 8%; 
+	padding-right: 5%; 
 }
 
 .extra p	{
@@ -798,7 +798,7 @@ header	{
 	height: 6.7em; 
 	width: 85%; 
 	padding-bottom: 8%; 
-	padding-right: 6%; 
+	padding-right: 8%; 
 }
 
 .extra p	{
@@ -808,7 +808,7 @@ header	{
 	background-repeat: no-repeat; 
 	padding-left: 15%; 
 	height: 2.8em; 
-	width: 95%; 
+	width: 85%; 
 	font-size: .9em; 
 	line-height: 1.3em; 
 	color: #858585; 
