@@ -229,10 +229,13 @@ font-size: .9em;
 	float: left; 
 	margin-left: 4%; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	height: 300px; 
 	background-color: blue; 
 =======
 >>>>>>> big changes!
+=======
+>>>>>>> major edits
 	margin-bottom: 5%; 
 	width: 80%; 
 }
@@ -243,10 +246,14 @@ font-size: .9em;
 	width: 40%; 
 	padding-right: 10%; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-bottom: 6%; 
 =======
 	margin-bottom: 4%; 
 >>>>>>> big changes!
+=======
+	margin-bottom: 4%; 
+>>>>>>> major edits
 }
 
 .column2 p	{
@@ -298,6 +305,7 @@ font-size: .9em;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .dont	{
@@ -305,6 +313,10 @@ font-size: .9em;
 
 .dont {
 >>>>>>> big changes!
+=======
+
+.dont {
+>>>>>>> major edits
 	background-image: url(../img/dont_icon.png); 
 	float: left; 
 	background-repeat: no-repeat; 
@@ -335,6 +347,7 @@ font-size: .9em;
 	padding-left:2%;
 	margin-bottom:2%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .ifnot  {
@@ -342,13 +355,18 @@ font-size: .9em;
 	padding-left:2%;
 	margin-top:20%;
 =======
+=======
+>>>>>>> major edits
 	font-size: 1em; 
 	color: #858585; 
 }
 
 .header-padding {
 	padding-top:8%;
+<<<<<<< HEAD
 >>>>>>> big changes!
+=======
+>>>>>>> major edits
 }
 
 /** IMAGE CONTENT **/
@@ -381,7 +399,11 @@ font-size: .9em;
 .bareimage2	{
 	margin-left: 2%; 
 	margin-bottom: 4%; 
+<<<<<<< HEAD
 	width: 83%; 
+=======
+	width: 80%; 
+>>>>>>> major edits
 	height: auto; 
 }
 
@@ -433,6 +455,7 @@ font-size: .9em;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .contents .container   {
 	margin-top:30%;
 }
@@ -467,6 +490,23 @@ font-size: .9em;
 }
 
 >>>>>>> big changes!
+=======
+
+
+/* EXTRA CONTENT */
+
+.extra	{
+	padding-top: 5%; 
+	padding-left: 14%; 
+	clear: both; 
+	background-color: #F6F6F6; 
+	height: 3em; 
+	width: 78%; 
+	padding-bottom: 8%; 
+	padding-right: 8%; 
+}
+
+>>>>>>> major edits
 .extra p	{
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	background-image: url(../img/asterisk.png); 
@@ -672,19 +712,25 @@ header	{
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	color: #858585; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-left: 4%; 
 	margin-right: 17%; 
 	font-size: 1em; 
 	line-height: 1.5em; 
 	margin-bottom: 3%; 
 =======
+=======
+>>>>>>> major edits
 	margin-left: 12%; 
 	margin-right: 12%; 
 	font-size: .9em; 
 	line-height: 1.5em; 
 	margin-bottom: 3%;
 	text-align: center;  
+<<<<<<< HEAD
 >>>>>>> big changes!
+=======
+>>>>>>> major edits
 }
 
 .description h4	{
@@ -696,10 +742,14 @@ header	{
 	height: auto; 
 	width: 20%; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-left: 8%; 
 =======
 	margin-left: 10%; 
 >>>>>>> big changes!
+=======
+	margin-left: 10%; 
+>>>>>>> major edits
 	margin-bottom: 10%; 
 }
 
@@ -714,15 +764,20 @@ header	{
 .column h4	{
 	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-size: 1em; 
 =======
 	font-size: .9em; 
 >>>>>>> big changes!
+=======
+	font-size: .9em; 
+>>>>>>> major edits
 	color: #858585; 
 }
 
 .group	{
 	float: left; 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	margin-left: 4%; 
 	height: 300px; 
@@ -730,6 +785,9 @@ header	{
 =======
 	margin-left: 14%; 
 >>>>>>> big changes!
+=======
+	margin-left: 14%; 
+>>>>>>> major edits
 	margin-bottom: 5%; 
 	width: 80%; 
 }
@@ -740,10 +798,14 @@ header	{
 	width: 40%; 
 	padding-right: 10%; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-bottom: 6%; 
 =======
 	margin-bottom: 4%; 
 >>>>>>> big changes!
+=======
+	margin-bottom: 4%; 
+>>>>>>> major edits
 }
 
 .column2 p	{
@@ -1391,10 +1453,14 @@ footer	{
 	text-align: center; 
 	margin-bottom: 2%; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-left: 34%;
 =======
 	margin-left: 32%;
 >>>>>>> big changes!
+=======
+	margin-left: 32%;
+>>>>>>> major edits
 }
 
 #ratiologo img	{
