@@ -106,6 +106,7 @@ header	{
 	margin-bottom: 1.3em; 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 14em; 
 =======
 	width: 15em; 
@@ -113,6 +114,9 @@ header	{
 =======
 	width: 15em; 
 >>>>>>> major edits
+=======
+	width: 15em; 
+>>>>>>> new changes
 }
 
 #welcome p	{
@@ -138,6 +142,7 @@ header	{
 
 #hero	{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-top: 5%; 
 <<<<<<< HEAD
 =======
@@ -146,6 +151,9 @@ header	{
 =======
 	margin-top: 7%; 
 >>>>>>> major edits
+=======
+	margin-top: 7%; 
+>>>>>>> new changes
 	margin-left: 3%; 
 	width: 54%; 
 	height: 390px; 
@@ -457,9 +465,12 @@ footer a	{
 	line-height: 25px; 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> major edits
+=======
+>>>>>>> new changes
 }
 
 footer p {
@@ -467,9 +478,12 @@ footer p {
 	border:1px solid red;
 	text-align-right;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> big changes!
 =======
 >>>>>>> major edits
+=======
+>>>>>>> new changes
 }
 
 footer ul li a:hover	{
