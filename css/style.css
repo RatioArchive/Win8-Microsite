@@ -99,9 +99,8 @@ header	{
 
 #welcome h1	{
 	color: white; 
-	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	font-size: 1em; 
-	font-weight: lighter; 
 	line-height: 1.3em; 
 	margin-bottom: 1.3em; 
 	width: 15em; 
