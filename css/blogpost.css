@@ -228,8 +228,11 @@ font-size: .9em;
 .group	{
 	float: left; 
 	margin-left: 4%; 
+<<<<<<< HEAD
 	height: 300px; 
 	background-color: blue; 
+=======
+>>>>>>> big changes!
 	margin-bottom: 5%; 
 	width: 80%; 
 }
@@ -239,7 +242,11 @@ font-size: .9em;
 	height: auto; 
 	width: 40%; 
 	padding-right: 10%; 
+<<<<<<< HEAD
 	margin-bottom: 6%; 
+=======
+	margin-bottom: 4%; 
+>>>>>>> big changes!
 }
 
 .column2 p	{
@@ -290,9 +297,14 @@ font-size: .9em;
 	clear:both;
 }
 
+<<<<<<< HEAD
 }
 
 .dont	{
+=======
+
+.dont {
+>>>>>>> big changes!
 	background-image: url(../img/dont_icon.png); 
 	float: left; 
 	background-repeat: no-repeat; 
@@ -322,12 +334,21 @@ font-size: .9em;
 .statement   {
 	padding-left:2%;
 	margin-bottom:2%;
+<<<<<<< HEAD
 }
 
 .ifnot  {
 	clear:both;
 	padding-left:2%;
 	margin-top:20%;
+=======
+	font-size: 1em; 
+	color: #858585; 
+}
+
+.header-padding {
+	padding-top:8%;
+>>>>>>> big changes!
 }
 
 /** IMAGE CONTENT **/
@@ -351,6 +372,13 @@ font-size: .9em;
 }
 
 .bareimage	{
+	margin-left: 2%; 
+	margin-bottom: 4%; 
+	width: 83%; 
+	height: auto; 
+}
+
+.bareimage2	{
 	margin-left: 2%; 
 	margin-bottom: 4%; 
 	width: 83%; 
@@ -404,6 +432,7 @@ font-size: .9em;
 	text-decoration: underline; 
 }
 
+<<<<<<< HEAD
 .contents .container   {
 	margin-top:30%;
 }
@@ -421,6 +450,23 @@ font-size: .9em;
 	padding-right: 8%; 
 }
 
+=======
+
+
+/* EXTRA CONTENT */
+
+.extra	{
+	padding-top: 5%; 
+	padding-left: 14%; 
+	clear: both; 
+	background-color: #F6F6F6; 
+	height: 3em; 
+	width: 85%; 
+	padding-bottom: 8%; 
+	padding-right: 8%; 
+}
+
+>>>>>>> big changes!
 .extra p	{
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	background-image: url(../img/asterisk.png); 
@@ -625,11 +671,20 @@ header	{
 .description	{
 	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
 	color: #858585; 
+<<<<<<< HEAD
 	margin-left: 4%; 
 	margin-right: 17%; 
 	font-size: 1em; 
 	line-height: 1.5em; 
 	margin-bottom: 3%; 
+=======
+	margin-left: 12%; 
+	margin-right: 12%; 
+	font-size: .9em; 
+	line-height: 1.5em; 
+	margin-bottom: 3%;
+	text-align: center;  
+>>>>>>> big changes!
 }
 
 .description h4	{
@@ -640,7 +695,11 @@ header	{
 	float: left; 
 	height: auto; 
 	width: 20%; 
+<<<<<<< HEAD
 	margin-left: 8%; 
+=======
+	margin-left: 10%; 
+>>>>>>> big changes!
 	margin-bottom: 10%; 
 }
 
@@ -654,15 +713,23 @@ header	{
 
 .column h4	{
 	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+<<<<<<< HEAD
 	font-size: 1em; 
+=======
+	font-size: .9em; 
+>>>>>>> big changes!
 	color: #858585; 
 }
 
 .group	{
 	float: left; 
+<<<<<<< HEAD
 	margin-left: 4%; 
 	height: 300px; 
 	background-color: blue; 
+=======
+	margin-left: 14%; 
+>>>>>>> big changes!
 	margin-bottom: 5%; 
 	width: 80%; 
 }
@@ -672,7 +739,11 @@ header	{
 	height: auto; 
 	width: 40%; 
 	padding-right: 10%; 
+<<<<<<< HEAD
 	margin-bottom: 6%; 
+=======
+	margin-bottom: 4%; 
+>>>>>>> big changes!
 }
 
 .column2 p	{
@@ -692,7 +763,12 @@ header	{
 
 /** BLOG POST CONTENT **/ 
 
-.section	{
+.statement   {
+	padding-left: 2%;
+	margin-bottom: 3%;
+	font-size: .9em; 
+	color: #858585; 
+	text-align: center; 
 }
 
 .section h3	{
@@ -700,6 +776,7 @@ header	{
 	color: #858585; 
 	font-size: .9em; 
 	margin-top: 7%; 
+	text-align: center; 
 }
 
 .left, .right	{
@@ -725,6 +802,13 @@ header	{
 	margin-bottom: 4%; 
 }
 
+.bareimage2	{
+	margin-left: 8%; 
+	margin-bottom: 4%; 
+	width: 83%; 
+	height: auto; 
+}
+
 .livetiles	{
 	margin-left: 10%; 
 	margin-bottom: 4%; 
@@ -732,12 +816,13 @@ header	{
 	height: auto; 
 }
 
-.dont	{
+.dont {
 	background-image: url(../img/dont_icon.png); 
 	float: left; 
 	background-repeat: no-repeat; 
 	padding-left: 16%; 
 	height: 2.8em; 
+	margin-bottom: 38%;  
 }
 
 .do	{
@@ -1045,7 +1130,85 @@ font-size: .9em;
 	text-align: center; 
 }
 
+/** BLOG POST CONTENT (1-column) **/ 
+
+.description	{
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	color: #858585; 
+	margin-left: 12%; 
+	margin-right: 12%; 
+	font-size: .9em; 
+	line-height: 1.5em; 
+	margin-bottom: 6%; 
+	text-align:center; 
+}
+
+.description h4	{
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+}
+
+.column	{
+	float: left; 
+	height: auto; 
+	width: 80%; 
+	margin-left: 10%; 
+	margin-bottom: 10%; 
+	text-align:center; 
+}
+
+.column p	{
+	margin-top: 3%; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: .8em; 
+	line-height: 1.3em; 
+	color: #858585; 
+}
+
+.column h4	{
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: .9em; 
+	color: #858585; 
+}
+
+.group	{
+	float: left; 
+	margin-left: 14%; 
+	margin-bottom: 5%; 
+	width: 80%; 
+}
+
+.column2	{
+	float: left; 
+	height: auto; 
+	width: 90%; 
+	padding-right: 10%; 
+	margin-bottom: 6%; 
+	text-align: center; 
+}
+
+.column2 p	{
+	margin-top: 3%; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: .8em; 
+	line-height: 1.3em; 
+	color: #858585; 
+}
+
+.column2 h4	{
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: 1em; 
+	color: #858585; 
+}
+
 /** BLOG POST CONTENT **/ 
+
+.statement   {
+	padding-left: 2%;
+	margin-bottom: 3%;
+	font-size: .8em; 
+	color: #858585; 
+	text-align: center; 
+}
 
 .section	{
 	clear: both; 
@@ -1077,6 +1240,13 @@ font-size: .9em;
 	width: 80%; 
 	height: auto; 
 	margin-left: 20%; 
+	margin-bottom: 4%; 
+}
+
+.bareimage2	{
+	width: 80%; 
+	height: auto; 
+	margin-left: 9%; 
 	margin-bottom: 4%; 
 }
 
@@ -1220,7 +1390,11 @@ footer	{
 	float: left; 
 	text-align: center; 
 	margin-bottom: 2%; 
+<<<<<<< HEAD
 	margin-left: 34%;
+=======
+	margin-left: 32%;
+>>>>>>> big changes!
 }
 
 #ratiologo img	{

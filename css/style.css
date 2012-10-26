@@ -36,12 +36,6 @@
 }
 
 
-
-
-h1, h2, h3, h4, h5, a, p, ul, li	{
-	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
-}
-
 body	{
 	background-color: #FFFFFF; 
 }
@@ -105,12 +99,16 @@ header	{
 
 #welcome h1	{
 	color: white; 
-	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 	font-size: 1em; 
 	font-weight: lighter; 
 	line-height: 1.3em; 
 	margin-bottom: 1.3em; 
+<<<<<<< HEAD
 	width: 14em; 
+=======
+	width: 15em; 
+>>>>>>> big changes!
 }
 
 #welcome p	{
@@ -136,6 +134,10 @@ header	{
 
 #hero	{
 	margin-top: 5%; 
+<<<<<<< HEAD
+=======
+	padding-top: 4%; 
+>>>>>>> big changes!
 	margin-left: 3%; 
 	width: 54%; 
 	height: 390px; 
@@ -446,6 +448,15 @@ footer a	{
 	text-align: center; 
 	margin-left: 5%; 
 	line-height: 25px; 
+<<<<<<< HEAD
+=======
+}
+
+footer p {
+	width:500px;
+	border:1px solid red;
+	text-align-right;
+>>>>>>> big changes!
 }
 
 footer ul li a:hover	{
