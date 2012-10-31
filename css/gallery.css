@@ -1,0 +1,683 @@
+@charset "UTF-8";
+
+
+/** GLOBAL STYLES **/ 
+
+.container	{
+	height: auto; 
+	margin-left: auto; 
+	margin-right: auto; 
+	max-width: 1200px; 
+}
+
+
+@font-face {
+    font-family: 'segoe-light';
+    src: url('fonts/segoeuil.eot');
+    src: url('fonts/segoeuil.eot?#iefix') format('embedded-opentype'),
+         url('fonts/segoeuil.woff') format('woff'),
+         url('fonts/segoeuil.ttf') format('truetype'),
+         url('fonts/segoeuil.svg#segoe-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'segoe-bold';
+    src: url('fonts/seguisb.eot');
+    src: url('fonts/seguisb.eot?#iefix') format('embedded-opentype'),
+         url('fonts/seguisb.woff') format('woff'),
+         url('fonts/seguisb.ttf') format('truetype'),
+         url('fonts/seguisb.svg#segoe-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body	{
+	background-color: #FFFFFF; 
+}
+
+
+/** HEADER **/
+
+.topborder	{
+	height: 10px; 
+	width: 100%; 
+	background-color: #26C9FF; 
+	margin-bottom: 10px; 
+}
+
+header	{
+	height: 32em; 
+	width: 100%; 
+	background-color: #1F1D1E; 
+}
+
+/*#nav	{
+	margin-left: 24%; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+}
+
+#nav a	{
+	display: block; 
+	text-decoration: none; 
+	color: white; 
+	width: 10%; 
+	height: 5%; 
+	font-size: .7em; 
+	float: left; 
+	margin-top: 1.5%; 
+	text-align: center; 
+	margin-left: 10%; 
+}
+
+#nav a:active	{
+	color: #26C9FF; 
+}
+*/
+
+
+.logo	{
+	margin-bottom: 10%; 
+}
+
+#welcome	{
+	clear: both; 
+	float: left; 
+	width: 29%; 
+	height: 390px; 
+	margin-left: 8%; 
+	margin-top: 6%; 
+}
+
+#welcome img	{
+
+}
+
+#welcome h1	{
+	color: white; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: 1.1em; 
+	line-height: 1.3em; 
+	margin-bottom: 1.3em; 
+	width: 16em; 
+}
+
+#welcome p	{
+	font-size: .9em; 
+	line-height: 1.6em; 
+	font-weight: 100; 
+	color: white; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	margin-bottom: 6%; 
+}
+
+.bolder	{
+	font-weight: bold; 
+}
+
+#welcome a	{
+	color: white; 
+}
+
+#welcome: a:active	{
+	color: #26C9FF;
+}
+
+#hero	{
+	margin-top: 5%; 
+	margin-left: 3%; 
+	width: 54%; 
+	height: 390px; 
+	float: left; 
+}
+
+#hero img	{
+	padding-left: 10%; 
+	height: auto; 
+}
+
+
+/** CONTENT **/
+
+#content	{
+	clear: both; 
+	margin-left: 8%; 
+	margin-right: 3%; 
+}
+
+#content h3	{
+	margin-top: 7%; 
+	margin-bottom: 5%; 
+	height: 2.2em; 
+	width: 1.6em; 
+	border-bottom: solid 2px #858585; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: 1em;
+	color: #858585;  
+}	
+
+.thumbnail	{
+	width: 32%; 
+	height: auto; 
+	display: inline-block;
+	margin-bottom: 5%; 
+}
+
+.thumbnail img	{
+	width: 80%; 
+	height: auto; 
+}
+
+.thumbnail h2	{
+	margin-top: 4%; 
+	margin-bottom: 2%; 
+	color: #666666; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: .8em; 
+	letter-spacing: .06em; 
+}
+
+.thumbnail p {
+	color: #666666; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: .75em; 
+	width: 80%; 
+	line-height: 1.3em; 
+}
+
+.thumbnail a {
+	color: #666666; 
+	text-decoration: none; 
+}
+
+.thumbnail a:hover	{
+	text-decoration: underline; 
+}
+
+/** FOOTER **/
+
+footer	{
+	clear: both; 
+	margin-top: 4%; 
+	height: 80px; 
+	width: 100%; 
+	background-color: #26C9FF; 
+}
+
+#ratiologo	{
+	margin-left: 8%; 
+	height: 60px; 
+	width: 60px; 
+	margin-top: 11px; 
+	float: left; 
+}
+
+#ratiologo img	{
+	width: 60px; 
+	height: auto; 
+}
+
+.marginleft	{
+	margin-left: 37%; 
+}
+
+footer a	{
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	color: white; 
+	font-size: .8em; 
+	font-weight: 100; 
+	display: block; 
+	float: left; 
+	width: 50%; 
+	height: 10%; 
+	line-height: 80px;
+	text-decoration: none; 
+}
+
+.opacity	{
+	font-size: inherit; 
+	line-height: 80px;
+	height: 10%; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	color: #8CE5FF; 
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+#nav	{
+	margin-left: 15%; 
+}
+
+#nav a	{
+	display: block; 
+	text-decoration: none; 
+	color: white; 
+	width: 15%; 
+	height: 5%; 
+	font-size: .8em; 
+	float: left; 
+	margin-top: 2%; 
+	text-align: center; 
+	margin-left: 10%; 
+}
+
+header	{
+	height: 55em; 
+	width: 100%; 
+	background-color: #1F1D1E; 
+}
+
+.logo	{
+	margin-top: 5%; 
+	margin-bottom: 5%; 
+	text-align: center; 
+}
+
+
+#welcome	{
+	clear: both; 
+	float: left; 
+	width: 90%; 
+	height: 320px; 
+	margin-left: 5%;
+	margin-right: 5%;  
+	margin-top: 8%; 
+}
+
+#welcome h1	{
+	color: white; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: 1em; 
+	font-weight: 100; 
+	line-height: 1.3em; 
+	margin-bottom: 1.1em; 
+	text-align: center; 
+	width: inherit; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#welcome p	{
+	margin-left: 12%; 
+	margin-right: 12%; 
+	font-size: .8em; 
+	line-height: 1.5em; 
+	font-weight: 100; 
+	color: white; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	text-align: center; 
+	margin-bottom: 5%; 
+}
+
+#welcome a	{
+	color: white; 
+}
+
+#welcome: a:active	{
+	color: #26C9FF;
+}
+
+
+#hero	{
+	margin-top: 16%; 
+	margin-left: 5%;
+	margin-right: 5%;  
+	width: 90%; 
+	height: 400px; 
+	float: left; 
+	text-align: center; 
+}
+
+#hero img	{
+	width: 80%; 
+	height: auto; 
+	padding-left: 0%; 
+}
+
+
+/** CONTENT **/
+
+#content	{
+	clear: both; 
+	height: auto; 
+}
+
+#content h3	{
+	margin-top: 7%; 
+	margin-bottom: 8%; 
+	height: 2.2em; 
+	width: 5em; 
+	border-bottom: solid 2px #666666; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: 1em; 
+	margin-left: auto; 
+	margin-right: auto; 
+	font-weight: 100; 
+	color: #666666; 
+}	
+
+.thumbnail	{
+	width: 45%; 
+	height: auto; 
+	margin-bottom: 7%; 
+	text-align: center; 
+	display: inline-block;
+	margin-left: 3%; 
+}
+
+.thumbnail img	{
+	width: 82%; 
+	height: auto; 
+}
+
+.thumbnail h2	{
+	margin-top: 4%; 
+	margin-bottom: 2%; 
+	color: #666666; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: .8em; 
+	letter-spacing: .06em; 
+}
+
+.thumbnail p {
+	font-size: .8em; 
+	color: #666666; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: .8em; 
+	width: 80%; 
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+.thumbnail a {
+	color: #666666; 
+	text-decoration: none; 
+}
+
+.thumbnail a:hover	{
+	text-decoration: underline; 
+}
+
+
+/** FOOTER **/
+
+footer	{
+	clear: both; 
+	height: 250px; 
+	width: 100%; 
+	background-color: #26C9FF; 
+}
+
+#ratiologo	{
+	height: 115px; 
+	width: 86%; 
+	margin-top: 30px; 
+	float: left; 
+	text-align: center; 
+	margin-bottom: 2%; 
+}
+
+#ratiologo img	{
+	margin-top: 12px; 
+	width: 110px; 
+	height: auto; 
+}
+
+.marginleft	{
+	margin-left: 0; 
+}
+
+footer a	{
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	color: white; 
+	font-size: .8em; 
+	font-weight: 100; 
+	display: block; 
+	float: left; 
+	width: 95%; 
+	height: 3%; 
+	text-decoration: none; 
+	text-align: center; 
+	margin-left: 5%; 
+	line-height: 25px; 
+}
+
+footer p {
+	width:500px;
+	border:1px solid red;
+	text-align-right;
+}
+
+footer ul li a:hover	{
+	text-decoration: underline; 
+}
+
+
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+	
+.topborder	{
+	height: 10px; 
+	width: 100%; 
+	background-color: #26C9FF; 
+	float: left; 
+	margin-bottom: 30px; 
+}
+
+#nav	{
+	margin-left: 2%;
+	float: left;  
+}
+
+#nav a	{
+	display: block; 
+	text-decoration: none; 
+	color: white; 
+	width: 100%; 
+	height: 2.4em; 
+	font-size: .9em; 
+	float: left; 
+	text-align: left; 
+	margin-top: .9em;
+	line-height: 1.6em; 
+}
+
+header	{
+	height: 58em; 
+	width: 100%; 
+	background-color: #1F1D1E; 
+}
+
+.logo	{
+	margin-top: 5%; 
+	margin-bottom: 8%; 
+	margin-left: 42%; 
+}
+
+
+#welcome	{
+	clear: both; 
+	float: left; 
+	width: 90%; 
+	height: 380px; 
+	margin-left: 5%;
+	margin-right: 5%;  
+	margin-top: 8%; 
+}
+
+#welcome h1	{
+	color: white; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: 1em; 
+	font-weight: 100; 
+	line-height: 1.3em; 
+	margin-bottom: 1.1em; 
+	text-align: center; 
+	width: 15em; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#welcome p	{
+	margin-left: 5%; 
+	margin-right: 5%; 
+	font-size: .85em; 
+	line-height: 1.5em; 
+	font-weight: 100; 
+	color: white; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	text-align: center; 
+}
+
+#welcome a	{
+	color: white; 
+}
+
+#welcome: a:active	{
+	color: #26C9FF;
+}
+
+#welcome img	{
+
+}
+
+#hero	{
+	margin-top: 35%; 
+	margin-left: 5%;
+	margin-right: 5%;  
+	width: 90%; 
+	height: 280px; 
+	float: left; 
+	text-align: center; 
+}
+
+#hero img	{
+	width: 85%; 
+	height: auto; 
+	padding-left: 0%; 
+}
+
+/** CONTENT **/
+
+#content	{
+	clear: both; 
+	margin-left: 5%; 
+	margin-right: 5%; 
+}
+
+#content h3	{
+	margin-top: 10%; 
+	margin-bottom: 8%; 
+	height: 2.2em; 
+	width: 5em; 
+	border-bottom: solid 2px #666666; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: 1em; 
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto; 
+	font-weight: 100; 
+	color: #666666; 
+}	
+
+.thumbnail	{
+	width: 100%; 
+	height: auto; 
+	float: inherit; 
+	margin-bottom: 9%; 
+	text-align: center; 
+	display: inline-block; 
+}
+
+.thumbnail img	{
+	width: 80%; 
+	height: auto; 
+}
+
+.thumbnail h2	{
+	margin-top: 4%; 
+	margin-bottom: 2%; 
+	color: #666666; 
+	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
+	font-size: .8em; 
+	letter-spacing: .06em; 
+}
+
+.thumbnail p {
+	font-size: .8em; 
+	color: #666666; 
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	font-size: .8em; 
+	width: 80%; 
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+.thumbnail a {
+	color: #666666; 
+	text-decoration: none; 
+}
+
+.thumbnail a:hover	{
+	text-decoration: underline; 
+}
+
+/** FOOTER **/
+
+footer	{
+	height: 250px; 
+	width: 100%; 
+	background-color: #26C9FF; 
+}
+
+#ratiologo	{
+	height: 115px; 
+	width: 70%; 
+	margin-top: 30px; 
+	float: left; 
+	text-align: center; 
+	margin-bottom: 2%; 
+	margin-left: 34%;
+}
+
+#ratiologo img	{
+	margin-top: 12px; 
+	width: 110px; 
+	height: auto; 
+}
+
+.marginleft	{
+	margin-left: 0; 
+}
+
+footer ul li a	{
+	font-family: 'segoe-light', Helvetica, Arial, Sans-Serif; 
+	color: white; 
+	font-size: .8em; 
+	font-weight: 100; 
+	display: block; 
+	float: left; 
+	width: 95%; 
+	height: 3%; 
+	margin-top: 15px; 
+	text-decoration: none; 
+	text-align: center; 
+	margin-left: 2%; 
+	line-height: 12px; 
+}
+
+footer ul li a:hover	{
+	text-decoration: underline; 
+}
+
+
+}
