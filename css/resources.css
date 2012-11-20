@@ -51,7 +51,7 @@ body	{
 }
 
 header	{
-	height: 40em; 
+	height: 45em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -65,7 +65,7 @@ header	{
 	display: block; 
 	text-decoration: none; 
 	color: white; 
-	width: 10%; 
+	width: 7%; 
 	height: 4%; 
 	font-size: .7em; 
 	float: left; 
@@ -226,6 +226,10 @@ header	{
 	color: #666666; 
 }
 
+.template img	{
+	margin-bottom: 1%; 
+}
+
 .template a:hover	{
 	text-decoration: underline; 
 }
@@ -304,7 +308,7 @@ footer a	{
 	display: block; 
 	text-decoration: none; 
 	color: white; 
-	width: 13%; 
+	width: 9%; 
 	height: 5%; 
 	font-size: .8em; 
 	float: left; 
@@ -354,6 +358,10 @@ header	{
 	margin-left: 49%; 
 }
 
+#welcome img	{
+	margin-left: 1%; 
+}
+
 #welcome h2	{
 	color: white; 
 	font-size: 1em; 
@@ -389,7 +397,7 @@ header	{
 	margin-left: 5%;
 	margin-right: 5%;  
 	width: 90%; 
-	height: 400px; 
+	height: 320px; 
 	float: left; 
 	text-align: center; 
 }
@@ -556,7 +564,7 @@ footer ul li a:hover	{
 @media only screen and (min-width: 300px) and (max-width: 480px) {
 	
 .topborder	{
-	height: 200px; 
+	height: 280px; 
 	width: 10px; 
 	background-color: #26C9FF; 
 	float: left; 
@@ -659,7 +667,7 @@ header	{
 	margin-left: 5%;
 	margin-right: 5%;  
 	width: 90%; 
-	height: 280px; 
+	height: 230px; 
 	float: left; 
 	text-align: center; 
 }
@@ -779,7 +787,7 @@ footer	{
 	float: left; 
 	text-align: center; 
 	margin-bottom: 2%; 
-	margin-left: 34%;
+	margin-left: 29%;
 }
 
 #ratiologo img	{

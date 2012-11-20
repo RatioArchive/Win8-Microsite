@@ -51,7 +51,7 @@ body	{
 }
 
 header	{
-	height: 32em; 
+	height: 37em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -65,7 +65,7 @@ header	{
 	display: block; 
 	text-decoration: none; 
 	color: white; 
-	width: 10%; 
+	width: 7%; 
 	height: 4%; 
 	font-size: .7em; 
 	float: left; 
@@ -78,6 +78,9 @@ header	{
 	color: #26C9FF; 
 }
 
+.navlogo	{
+	
+}
 
 
 .logo	{
@@ -147,7 +150,7 @@ header	{
 #content	{
 	clear: both; 
 	margin-left: 8%; 
-	margin-right: 3%; 
+	margin-right: 0%; 
 }
 
 #content h3	{
@@ -258,7 +261,7 @@ footer a	{
 	display: block; 
 	text-decoration: none; 
 	color: white; 
-	width: 13%; 
+	width: 9%; 
 	height: 5%; 
 	font-size: .8em; 
 	float: left; 
@@ -268,7 +271,7 @@ footer a	{
 }
 
 header	{
-	height: 58em; 
+	height: 60em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -466,7 +469,7 @@ footer ul li a:hover	{
 @media only screen and (min-width: 300px) and (max-width: 480px) {
 	
 .topborder	{
-	height: 200px; 
+	height: 280px; 
 	width: 10px; 
 	background-color: #26C9FF; 
 	float: left; 
@@ -492,7 +495,7 @@ footer ul li a:hover	{
 }
 
 header	{
-	height: 63em; 
+	height: 67em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -647,7 +650,7 @@ footer	{
 	float: left; 
 	text-align: center; 
 	margin-bottom: 2%; 
-	margin-left: 34%;
+	margin-left: 29%;
 }
 
 #ratiologo img	{

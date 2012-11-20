@@ -51,7 +51,7 @@ body	{
 }
 
 header	{
-	height: 46em; 
+	height: 48em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -65,7 +65,7 @@ header	{
 	display: block; 
 	text-decoration: none; 
 	color: white; 
-	width: 10%; 
+	width: 7%; 
 	height: 4%; 
 	font-size: .7em; 
 	float: left; 
@@ -493,7 +493,7 @@ footer a	{
 	display: block; 
 	text-decoration: none; 
 	color: white; 
-	width: 13%; 
+	width: 9%; 
 	height: 5%; 
 	font-size: .8em; 
 	float: left; 
@@ -588,7 +588,7 @@ header	{
 
 
 #hero	{
-	margin-top: 33%; 
+	margin-top: 20%; 
 	margin-left: 5%;
 	margin-right: 5%;  
 	width: 90%; 
@@ -912,7 +912,7 @@ footer ul li a:hover	{
 @media only screen and (min-width: 300px) and (max-width: 480px) {
 	
 .topborder	{
-	height: 200px; 
+	height: 280px; 
 	width: 10px; 
 	background-color: #26C9FF; 
 	float: left; 
@@ -938,7 +938,7 @@ footer ul li a:hover	{
 }
 
 header	{
-	height: 62em; 
+	height: 70em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }

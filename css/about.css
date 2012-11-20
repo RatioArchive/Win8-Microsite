@@ -51,7 +51,7 @@ body	{
 }
 
 header	{
-	height: 46em; 
+	height: 52em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -65,7 +65,7 @@ header	{
 	display: block; 
 	text-decoration: none; 
 	color: white; 
-	width: 10%; 
+	width: 7%; 
 	height: 4%; 
 	font-size: .7em; 
 	float: left; 
@@ -139,7 +139,7 @@ header	{
 
 #welcome a	{
 	color: white; 
-	text-decoration: none; 
+	text-decoration: underline; 
 }
 
 #welcome: a:active	{
@@ -493,7 +493,7 @@ footer a	{
 	display: block; 
 	text-decoration: none; 
 	color: white; 
-	width: 13%; 
+	width: 9%; 
 	height: 5%; 
 	font-size: .8em; 
 	float: left; 
@@ -504,7 +504,7 @@ footer a	{
 
 
 header	{
-	height: 68em; 
+	height: 80em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -912,7 +912,7 @@ footer ul li a:hover	{
 @media only screen and (min-width: 300px) and (max-width: 480px) {
 	
 .topborder	{
-	height: 200px; 
+	height: 280px; 
 	width: 10px; 
 	background-color: #26C9FF; 
 	float: left; 
@@ -938,7 +938,7 @@ footer ul li a:hover	{
 }
 
 header	{
-	height: 62em; 
+	height: 71em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -1028,7 +1028,7 @@ header	{
 
 #hero	{
 	margin-top: 10%; 
-	margin-left: 3%;
+	margin-left: 5%;
 	margin-right: 5%;  
 	width: 90%; 
 	height: 240px; 
@@ -1326,7 +1326,7 @@ footer	{
 	float: left; 
 	text-align: center; 
 	margin-bottom: 2%; 
-	margin-left: 32%;
+	margin-left: 29%;
 }
 
 #ratiologo img	{
