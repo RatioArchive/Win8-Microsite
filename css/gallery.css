@@ -218,6 +218,9 @@ header	{
 .thumbnail img	{
 	width: 80%; 
 	height: auto; 
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3); 
+	-moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3); 
+	-o-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3); 
 }
 
 .thumbnail h2	{
@@ -266,9 +269,9 @@ header	{
 .gallerysection img	{
 	height: auto; 
 	width: 100%; 
-	-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,.2); 
-	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,.2); 
-	-o-box-shadow: 2px 2px 2px 0px rgba(0,0,0,.2); 
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3); 
+	-moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3); 
+	-o-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3); 
 }
 
 /** CONTENTS SECTION (TO OTHER BLOG POSTS) **/
