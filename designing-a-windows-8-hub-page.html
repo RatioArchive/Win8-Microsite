@@ -12,7 +12,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>HUB PAGE | Windows 8 Design Handbook</title>
+<title>DESIGNING A HUB PAGE | Windows 8 Design Handbook</title>
     
 <!-- Modernizr and Respond -->
 <script src="js/modernizr-2.6.1-respond-1.1.0.min.js"></script>
@@ -49,7 +49,17 @@
 
 </script>
 
+<!-- TWITTER BUTTON JS -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
+<!-- FACEBOOK BUTTON JS -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </head>
 
 <body>
@@ -78,11 +88,12 @@
             </div>
             <h1>WINDOWS 8 DESIGN HANDBOOK</h1>
             <div class="bottomborder"></div>
-            <h2>HUB PAGE</h2>
+            <h2>DESIGNING A HUB PAGE</h2>
             <p class="textwhite">The home view is the top level of a Windows 8 app where all of the app&#39;s main content hubs are shown.  It is sometimes referred to as &#34;Hub View&#34; or  &#34;Hub Page.&#34; When designing the home view of your app, there are some important things to consider, both in terms of usability and technical limitations of Windows 8.</p>
-            <br>
-            <p class="textgrey">Next Chapter &gt;&gt; <a href="key-windows-8-terminologies.html">Key Windows 8 Terminologies</a></p>
-            <p class="textgrey">Previous Chapter &lt;&lt; <a href="designing-a-windows-8-splash-page.html">Designing a Splash Page</a></p>
+            <ul>
+                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.windows8designhandbook.com/designing-a-windows-8-hub-page.html" data-text="Designing a Hub Page | Windows 8 Design Handbook" data-via="teamratio" data-hashtags="windows8">Tweet</a></li>          
+                <li class="fb-like" data-href="http://www.windows8designhandbook.com/designing-a-windows-8-hub-page.html" data-send="false" data-layout="button_count" data-width="75" data-show-faces="true" data-font="arial"></li>			
+            </ul>
         </div>
         
         <div id="hero">
@@ -217,6 +228,18 @@
             <div class="right">
                 <img class="bareimage" src="img/hubpage/windows8-design-hubs-max-height-do.png" width="310" height="150" alt="content overflow do">
                 <p class="do">Do flow your content outside of the viewport and make sure it looks cut off to indicate panning.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3>11. CONTENT SCROLLING</h3>        
+            <div class="left">
+                <img class="bareimage" src="img/hubpage/windows8-design-hubs-max-hub-content-scrolling-dont.png" alt="content overflow dont">
+                <p class="dont">Don&#39;t crop scrolling content at the left or right of the screen.</p>
+           </div>
+            <div class="right">
+                <img class="bareimage" src="img/hubpage/windows8-design-hubs-max-hub-content-scrolling-do.png" alt="content overflow do">
+                <p class="do">Do allow scrolling content to flow beyond the edge of the screen naturally.</p>
             </div>
         </div>
           

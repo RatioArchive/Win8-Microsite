@@ -48,7 +48,17 @@
 
 </script>
 
+<!-- TWITTER BUTTON JS -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
+<!-- FACEBOOK BUTTON JS -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 </head>
 
@@ -79,9 +89,11 @@
             <h1>WINDOWS 8 DESIGN HANDBOOK</h1>
             <div class="bottomborder"></div>
             <h2>MASTERING THE APP BAR</h2>
-            <p class="textwhite">App bars are used to perform actions on your content, such as deleting a photo or filtering results.  They are invoked by swiping from the top or bottom of the screen and allow you to keep your app content-focused.</p>
-			<br>
-            <p class="textgrey">Previous Chapter &lt;&lt; <a href="designing-windows-8-semantic-zoom.html">Utilizing Semantic Zoom</a></p>
+            <p class="textwhite margin-top">App bars are used to perform actions on your content, such as deleting a photo or filtering results, or as navigation within your app. They are invoked by swiping from the top or bottom of the screen or by right-clicking and allow you to keep your app content-focused.</p>
+            <ul>
+                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.windows8designhandbook.com/designing-windows-8-mastering-app-bar.html" data-text="Mastering the App Bar | Windows 8 Design Handbook" data-via="teamratio" data-hashtags="windows8">Tweet</a></li>          
+                <li class="fb-like" data-href="http://www.windows8designhandbook.com/designing-windows-8-mastering-app-bar.html" data-send="false" data-layout="button_count" data-width="75" data-show-faces="true" data-font="arial"></li>            
+            </ul>
         </div>
         
         <div id="hero">
@@ -115,35 +127,35 @@
             <h3>2. INVOKING THE APP BAR</h3>        
             <div class="left">
                 <img class="bareimage" src="img/app-bar/windows8-design-app-bar-invoking-dont-do.png" width="433" height="282" alt="background texture dont">
-                <p class="dont">Don't invoke the top and bottom app bars separately.</p>
+                <p class="dont">Don’t design the top and bottom app bars to be invoked using separate gestures.</p>
            </div>
             <div class="right">
                 <img class="bareimage" src="img/app-bar/windows8-design-app-bar-invoking-do.png" width="465" height="282" alt="background texture do">
-                <p class="do">Do invoke both app bars with one swipe</p>
+                <p class="do">Do design the top and bottom app bars to appear simultaneously with a single swipe or right-click.</p>
             </div>
         </div>
         
         <div class="section">
-            <h3>3. CLOSING AN APP BAR</h3>        
+            <h3>3. CLOSING THE APP BAR</h3>        
             <div class="left">
                 <img class="bareimage" src="img/app-bar/windows8-design-app-bar-close-dont-do.png" width="433" height="282" alt="logo position dont">
                 <p class="dont">Don't put a close button in the app bar</p>
            </div>
             <div class="right">
                 <img class="bareimage" src="img/app-bar/windows8-design-app-bar-close-do.png" width="465" height="282" alt="logo position do">
-                <p class="do">Do close close the app bars by clicking outside of them.</p>
+                <p class="do">Do close the app bar by tapping or clicking outside of it.</p>
             </div>
         </div>
         
         <div class="section">
-            <h3>4. WHAT TO PUT IN AN APP BAR</h3>        
+            <h3>4. CONTENT AND ADVERTISEMENTS</h3>        
             <div class="left">
                 <img class="bareimage" src="img/app-bar/windows8-design-app-bar-content-dont-do.png" width="433" height="282" alt="background image dont">
                 <p class="dont">Don't place any content in the app bars.</p>
            </div>
             <div class="right">
                 <img class="bareimage" src="img/app-bar/windows8-design-app-bar-content-do.png" width="465" height="282" alt="background image dont">
-                <p class="do">Do reserve the app bars for actions.</p>
+                <p class="do">Do reserve the top app bar for navigation and the lower app bar for actions.</p>
             </div>
         </div>
       
@@ -179,7 +191,7 @@
            </div>
             <div class="right">
                 <img class="bareimage" src="img/app-bar/windows8-design-app-bar-charm-functionality-do.png" width="465" height="282" alt="website url do">
-                <p class="do">Do reserve the app bars for actions.</p>
+                <p class="do">Do reserve the top app bar for navigation and the lower app bar for actions.</p>
             </div>
         </div>
         
@@ -206,21 +218,9 @@
                 <p class="do">Do use fly-outs to support nested actions.</p>
             </div>
         </div>
-        
+                
         <div class="section">
-            <h3>10. ADS + CONTENT</h3>        
-            <div class="left">
-                <img class="bareimage" src="img/app-bar/windows8-design-app-bar-adds-dont-do.png" width="433" height="282" alt="version data do">
-                <p class="dont">Don't put adds or content in the app bars</p>
-           </div>
-            <div class="right">
-                <img class="bareimage" src="img/app-bar/windows8-design-app-bar-content-do.png" width="465" height="282" alt="version data do">
-                <p class="do">Do reserve the top app bar for navigation and the lower app bar for actions.</p>
-            </div>
-        </div>
-        
-        <div class="section">
-            <h3>11. LOGOS</h3>        
+            <h3>10. LOGOS</h3>        
             <div class="left">
                 <img class="bareimage" src="img/app-bar/windows8-design-app-bar-logos-dont-do.png" width="433" height="282" alt="branding dont">
                 <p class="dont">Don't show your logo on the app bar.</p>
@@ -254,6 +254,7 @@
     <div class="container">
     
     <ul>
+        <li class="next textgrey">Next &gt;&gt; <a class="" href="designing-the-windows-8-detail-page.html">Designing the Detail Page</a></li>
         <li class="previous textgrey">Previous &lt;&lt; <a class="" href="designing-windows-8-semantic-zoom.html">Utilizing Semantic Zoom</a></li>
 	</ul>
     

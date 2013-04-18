@@ -48,8 +48,17 @@
 
 </script>
 
+<!-- TWITTER BUTTON JS -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-
+<!-- FACEBOOK BUTTON JS -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </head>
 
 <body>
@@ -79,10 +88,11 @@
             <h1>WINDOWS 8 DESIGN HANDBOOK</h1>
             <div class="bottomborder"></div>
             <h2>UTILZING SEMANTIC ZOOM</h2>
-            <p class="textwhite">Semantic Zoom allows you to quickly see an abbrevation of all the content on a page. Think of Semantic Zoom as a smart scroll bar that lets you quickly jump between content sections. </p>
-<br>
-            <p class="textgrey">Next Chapter &gt;&gt; <a href="designing-windows-8-mastering-app-bar.html">Mastering the App Bar</a></p>
-            <p class="textgrey">Previous Chapter &lt;&lt; <a href="key-windows-8-terminologies.html">Key Windows 8 Terminologies</a></p>
+            <p class="textwhite">Semantic zoom allows you to quickly see an abbreviation of all the content on a page. Think of semantic zoom as a smart scrollbar that lets you quickly jump between content sections.</p>
+            <ul>
+                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.windows8designhandbook.com/designing-windows-8-semantic-zoom.html" data-text="Utilizing Semantic Zoom | Windows 8 Design Handbook" data-via="teamratio" data-hashtags="windows8">Tweet</a></li>          
+                <li class="fb-like" data-href="http://www.windows8designhandbook.com/designing-windows-8-semantic-zoom.html" data-send="false" data-layout="button_count" data-width="75" data-show-faces="true" data-font="arial"></li>            
+            </ul>
         </div>
         
         <div id="hero">
@@ -104,7 +114,7 @@
             <h3>1. WHEN TO USE SEMANTIC ZOOM</h3>        
             <div class="left">
                 <img class="bareimage" src="img/semantic-zoom/windows8-design-semantic-use-dont-do.png" width="433" height="282" alt="background image dont">
-                <p class="dont">Don't use semantic zoom if you can see all your content without scrolling</p>
+                <p class="dont">Don't use semantic zoom if you can see all of your content without scrolling.</p>
            </div>
             <div class="right">
                 <img class="bareimage" src="img/semantic-zoom/windows8-design-semantic-use-do.png" width="433" height="282" alt="background image do">
@@ -137,10 +147,10 @@
         </div>
         
         <div class="section">
-            <h3>4. FILTERS</h3>        
+            <h3>4. FUNCTIONALITY</h3>        
             <div class="left">
                 <img class="bareimage" src="img/semantic-zoom/windows8-design-semantic-zoom-filters-dont-do.png" width="433" height="282" alt="background image dont">
-                <p class="dont">Don't introduce additional navigation in semantic zoom.</p>
+                <p class="dont">Don’t include so much additional functionality and navigation inside semantic zoom that important aspects of your app can’t be used without it..</p>
            </div>
             <div class="right">
                 <img class="bareimage" src="img/semantic-zoom/windows8-design-semantic-zoom-filters-do.png" width="433" height="282" alt="background image dont">
@@ -164,11 +174,11 @@
             <h3>6. BACK BUTTON</h3>        
             <div class="left">
                 <img class="bareimage" src="img/semantic-zoom/windows8-design-semantic-zoom-back-button-dont-do.png" width="433" height="282" alt="website url dont">
-                <p class="dont">Don't show the back button.</p>
+                <p class="dont">Don’t show a back button in semantic zoom.</p>
            </div>
             <div class="right">
                 <img class="bareimage" src="img/semantic-zoom/windows8-design-semantic-zoom-back-button-do.png" width="433" height="282" alt="website url do">
-                <p class="do">Do use the default behavior of exiting out of semantic zoom.</p>
+                <p class="do">Do use the default behavior of exiting semantic zoom (pinch-zoom out or scroll using the mouse wheel with CTRL pressed).</p>
             </div>
         </div>
         
@@ -200,11 +210,11 @@
             <h3>9. REMEMBER POSITION OF CONTENT</h3>        
             <div class="left">
                 <img class="bareimage" src="img/semantic-zoom/windows8-design-semantic-zoom-remember-position-dont-do.png" width="470" height="485" alt="version data do">
-                <p class="dont">Don't misplace the order of your content.</p>
+                <p class="dont">Don’t move the page to a different position in semantic zoom.</p>
            </div>
             <div class="right">
                 <img class="bareimage" src="img/semantic-zoom/windows8-design-semantic-zoom-remember-position-do.png" width="479" height="485" alt="version data do">
-                <p class="do">Do make sure to remember where your content is before semantic zoom.</p>
+                <p class="do">Do maintain the user’s position on the underlying page in semantic zoom.</p>
             </div>
         </div>
         

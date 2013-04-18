@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /** GLOBAL STYLES **/ 
 
 .container	{
@@ -51,7 +50,7 @@ body	{
 }
 
 header	{
-	height: 48em; 
+	height: 39em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -89,7 +88,7 @@ header	{
 	width: 28%; 
 	height: 390px; 
 	margin-left: 8%; 
-	margin-top: 8%; 
+	margin-top: 3%; 
 	height: auto; 
 }
 
@@ -128,13 +127,22 @@ header	{
 	font-weight: 100; 
 }
 
+#welcome li	{
+	float: left; 
+}
+
 .textwhite	{
 	color: white; 
-	margin-bottom: 20%; 
+	margin-bottom: 13%; 
 }
+
 
 .textgrey	{
 	color: #858585; 
+}
+
+.margin-top	{
+	margin-top: 10%; 
 }
 
 #welcome a	{
@@ -147,10 +155,10 @@ header	{
 }
 
 #hero	{
-	margin-top: 17%; 
+	margin-top: 12%; 
 	margin-left: 8%; 
 	width: 54%; 
-	height: 390px; 
+	height: 380px; 
 	float: left; 
 }
 
@@ -268,7 +276,7 @@ header	{
 	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif; 
 	color: #858585; 
 	font-size: 1em; 
-	margin-top: 7%; 
+	margin-top: 4%; 
 	margin-bottom: 4%; 
 }
 
@@ -568,6 +576,15 @@ header	{
 	text-align: center; 
 }
 
+#welcome li	{
+	margin-left: 45%; 
+}
+
+#welcome ul	{
+	margin-top: 5%; 
+	margin-bottom: 13%; 
+}
+
 .textwhite	{
 	color: white; 
 	margin-bottom: 2%; 
@@ -575,6 +592,7 @@ header	{
 
 .textgrey	{
 	color: #858585; 
+	margin-top: 0%; 
 }
 
 #welcome a	{
@@ -588,7 +606,7 @@ header	{
 
 
 #hero	{
-	margin-top: 20%; 
+	margin-top: 25%; 
 	margin-left: 5%;
 	margin-right: 5%;  
 	width: 90%; 
@@ -938,7 +956,7 @@ footer ul li a:hover	{
 }
 
 header	{
-	height: 70em; 
+	height: 73em; 
 	width: 100%; 
 	background-color: #1F1D1E; 
 }
@@ -1003,6 +1021,15 @@ header	{
 	text-align: center; 
 }
 
+#welcome li	{
+	margin-left: 40%; 
+}
+
+#welcome ul	{
+	margin-top: 5%; 
+	margin-bottom: 16%; 
+}
+
 .textwhite	{
 	color: white; 
 	margin-bottom: 2%; 
@@ -1010,6 +1037,7 @@ header	{
 
 .textgrey	{
 	color: #858585; 
+	margin-top: 0%; 
 }
 
 #welcome a	{
