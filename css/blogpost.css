@@ -117,6 +117,7 @@ header	{
 	margin-bottom: 7%; 
 	font-family: 'segoe-bold', Helvetica, Arial, Sans-Serif;
 	letter-spacing: 1px;  
+	line-height: 1.1em; 
 }
 
 #welcome p	{
